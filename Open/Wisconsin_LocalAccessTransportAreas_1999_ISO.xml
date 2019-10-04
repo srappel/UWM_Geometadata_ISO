@@ -1,6 +1,6 @@
 ﻿<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileIdentifier>
-    <gco:CharacterString>ADB48EAF-AF28-4485-A810-43B5D6386707</gco:CharacterString>
+    <gco:CharacterString>ECBF0A3C-A500-499B-AF04-077290655D6E</gco:CharacterString>
   </fileIdentifier>
   <language>
     <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
@@ -67,7 +67,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2019-10-02</gco:Date>
+    <gco:Date>2019-10-01</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -86,7 +86,7 @@
             <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
           </geometricObjectType>
           <geometricObjectCount>
-            <gco:Integer>28</gco:Integer>
+            <gco:Integer>45</gco:Integer>
           </geometricObjectCount>
         </MD_GeometricObjects>
       </geometricObjects>
@@ -97,8 +97,14 @@
       <referenceSystemIdentifier>
         <RS_Identifier>
           <code>
-            <gco:CharacterString>0</gco:CharacterString>
+            <gco:CharacterString>3070</gco:CharacterString>
           </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </codeSpace>
+          <version>
+            <gco:CharacterString>9.6.3</gco:CharacterString>
+          </version>
         </RS_Identifier>
       </referenceSystemIdentifier>
     </MD_ReferenceSystem>
@@ -108,15 +114,12 @@
       <citation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>Minor Civil Divisions Brown County, Wisconsin 2002</gco:CharacterString>
+            <gco:CharacterString>Local Access Transport Areas Wisconsin 1999</gco:CharacterString>
           </title>
-          <alternateTitle>
-            <gco:CharacterString>BrownCounty_MinorCivilDivisions_2002</gco:CharacterString>
-          </alternateTitle>
           <date>
             <CI_Date>
               <date>
-                <gco:Date>2002-01-01</gco:Date>
+                <gco:Date>1999-01-01</gco:Date>
               </date>
               <dateType>
                 <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -126,45 +129,29 @@
           <citedResponsibleParty>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+                <gco:CharacterString>Wisconsin Department of Administration</gco:CharacterString>
               </organisationName>
               <contactInfo>
                 <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                        <gco:CharacterString>101 E Wilson Street, 9th Floor</gco:CharacterString>
                       </deliveryPoint>
                       <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
+                        <gco:CharacterString>Madison</gco:CharacterString>
                       </city>
                       <administrativeArea>
                         <gco:CharacterString>WI</gco:CharacterString>
                       </administrativeArea>
                       <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
+                        <gco:CharacterString>53703</gco:CharacterString>
                       </postalCode>
                       <country>
                         <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                       </country>
                     </CI_Address>
                   </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
                 </CI_Contact>
               </contactInfo>
               <role>
@@ -175,45 +162,29 @@
           <citedResponsibleParty>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+                <gco:CharacterString>Wisconsin Department of Administration</gco:CharacterString>
               </organisationName>
               <contactInfo>
                 <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                        <gco:CharacterString>101 E Wilson Street, 9th Floor</gco:CharacterString>
                       </deliveryPoint>
                       <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
+                        <gco:CharacterString>Madison</gco:CharacterString>
                       </city>
                       <administrativeArea>
                         <gco:CharacterString>WI</gco:CharacterString>
                       </administrativeArea>
                       <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
+                        <gco:CharacterString>53703</gco:CharacterString>
                       </postalCode>
                       <country>
                         <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                       </country>
                     </CI_Address>
                   </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
                 </CI_Contact>
               </contactInfo>
               <role>
@@ -227,13 +198,15 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This polygon data layer represents minor civil divisions for Brown County, Wisconsin in 2002. The dataset was originally published by the Brown County Land Information Office in 2002.</gco:CharacterString>
+        <gco:CharacterString>This polygon data layer represents local access transport areas in Wisconsin in 1999. The dataset was originally published by the Wisconsin Department of Administration in 1999.[This data layer is a polygon shapefile of the local access transport areas (LATA) in Wisconsin, derived from the Wisconsin telephone exchange boundary coverage. This data set is referenced to the Wisconsin Transverse Mercator (WTM) projection system, North American Datum 1983 with the 1991 adjustment (NAD83/91).]</gco:CharacterString>
       </abstract>
       <purpose>
-        <gco:CharacterString>This layer is intended for reference and mapping purposes and may be used for basic applications such as viewing, querying, and map output production or to provide a basemap to support graphical overlays and analysis with other spatial data.</gco:CharacterString>
+        <gco:CharacterString>This layer is intended for reference and mapping purposes and may be used for basic applications such as viewing, querying, and map output production or to provide a basemap to support graphical overlays and analysis with other spatial data.
+
+[This data layer is for use in generalized mapping applications. The level of accuracy does not support detailed local analysis. The data layer is intended for use with GIS software.]</gco:CharacterString>
       </purpose>
       <credit>
-        <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+        <gco:CharacterString>Wisconsin Department of Administration</gco:CharacterString>
       </credit>
       <status>
         <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
@@ -241,45 +214,29 @@
       <pointOfContact>
         <CI_ResponsibleParty>
           <organisationName>
-            <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+            <gco:CharacterString>Wisconsin Department of Administration</gco:CharacterString>
           </organisationName>
           <contactInfo>
             <CI_Contact>
-              <phone>
-                <CI_Telephone>
-                  <voice>
-                    <gco:CharacterString>920-448-6480</gco:CharacterString>
-                  </voice>
-                  <facsimile>
-                    <gco:CharacterString>920-448-4487</gco:CharacterString>
-                  </facsimile>
-                </CI_Telephone>
-              </phone>
               <address>
                 <CI_Address>
                   <deliveryPoint>
-                    <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                  </deliveryPoint>
-                  <deliveryPoint>
-                    <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                    <gco:CharacterString>101 E Wilson Street, 9th Floor</gco:CharacterString>
                   </deliveryPoint>
                   <city>
-                    <gco:CharacterString>Green Bay</gco:CharacterString>
+                    <gco:CharacterString>Madison</gco:CharacterString>
                   </city>
                   <administrativeArea>
                     <gco:CharacterString>WI</gco:CharacterString>
                   </administrativeArea>
                   <postalCode>
-                    <gco:CharacterString>54305-3600</gco:CharacterString>
+                    <gco:CharacterString>53703</gco:CharacterString>
                   </postalCode>
                   <country>
                     <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                   </country>
                 </CI_Address>
               </address>
-              <hoursOfService>
-                <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-              </hoursOfService>
             </CI_Contact>
           </contactInfo>
           <role>
@@ -295,45 +252,29 @@
           <contact>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+                <gco:CharacterString>Wisconsin Department of Administration</gco:CharacterString>
               </organisationName>
               <contactInfo>
                 <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                        <gco:CharacterString>101 E Wilson Street, 9th Floor</gco:CharacterString>
                       </deliveryPoint>
                       <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
+                        <gco:CharacterString>Madison</gco:CharacterString>
                       </city>
                       <administrativeArea>
                         <gco:CharacterString>WI</gco:CharacterString>
                       </administrativeArea>
                       <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
+                        <gco:CharacterString>53703</gco:CharacterString>
                       </postalCode>
                       <country>
                         <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                       </country>
                     </CI_Address>
                   </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
                 </CI_Contact>
               </contactInfo>
               <role>
@@ -345,9 +286,6 @@
       </resourceMaintenance>
       <descriptiveKeywords>
         <MD_Keywords>
-          <keyword>
-            <gco:CharacterString>Brown County</gco:CharacterString>
-          </keyword>
           <keyword>
             <gco:CharacterString>Wisconsin</gco:CharacterString>
           </keyword>
@@ -385,10 +323,10 @@
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
-            <gco:CharacterString>Boundaries</gco:CharacterString>
+            <gco:CharacterString>Telephone</gco:CharacterString>
           </keyword>
           <keyword>
-            <gco:CharacterString>Administrative and political divisions</gco:CharacterString>
+            <gco:CharacterString>Telecommunication</gco:CharacterString>
           </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
@@ -414,7 +352,7 @@
       <resourceConstraints>
         <MD_Constraints>
           <useLimitation>
-            <gco:CharacterString>Please see the UWM Libraries statement on Copyright and Digital Collections.</gco:CharacterString>
+            <gco:CharacterString>Please see the UWM Libraries statement on Copyright and Digital Collections.[There are no distribution constraints on this data layer.][For use at scales no larger than 100,000.]</gco:CharacterString>
           </useLimitation>
         </MD_Constraints>
       </resourceConstraints>
@@ -424,7 +362,7 @@
             <gco:CharacterString>Although this data is being distributed by the American Geographical Society Library at the University of Wisconsin-Milwaukee Libraries, no warranty expressed or implied is made by the University as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the University in the use of this data, or related materials.</gco:CharacterString>
           </useLimitation>
           <otherConstraints>
-            <gco:CharacterString>Restricted to distribution to UW-System students, faculty, or staff for educational use.</gco:CharacterString>
+            <gco:CharacterString>None</gco:CharacterString>
           </otherConstraints>
         </MD_LegalConstraints>
       </resourceConstraints>
@@ -438,7 +376,7 @@
         <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
       </characterSet>
       <topicCategory>
-        <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
+        <MD_TopicCategoryCode>utilitiesCommunication</MD_TopicCategoryCode>
       </topicCategory>
       <environmentDescription>
         <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</gco:CharacterString>
@@ -451,24 +389,24 @@
                 <gco:Boolean>true</gco:Boolean>
               </extentTypeCode>
               <westBoundLongitude>
-                <gco:Decimal>-88.252631</gco:Decimal>
+                <gco:Decimal>-92.964436</gco:Decimal>
               </westBoundLongitude>
               <eastBoundLongitude>
-                <gco:Decimal>-87.762206</gco:Decimal>
+                <gco:Decimal>-86.709231</gco:Decimal>
               </eastBoundLongitude>
               <southBoundLatitude>
-                <gco:Decimal>44.240107</gco:Decimal>
+                <gco:Decimal>42.458024</gco:Decimal>
               </southBoundLatitude>
               <northBoundLatitude>
-                <gco:Decimal>44.680117</gco:Decimal>
+                <gco:Decimal>47.083196</gco:Decimal>
               </northBoundLatitude>
             </EX_GeographicBoundingBox>
           </geographicElement>
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimeInstant gml:id="ID0E5EAC">
-                  <gml:timePosition>2002-01-01T00:00:00</gml:timePosition>
+                <gml:TimeInstant gml:id="ID0ERH">
+                  <gml:timePosition>1999-01-01T00:00:00</gml:timePosition>
                 </gml:TimeInstant>
               </extent>
             </EX_TemporalExtent>
@@ -476,7 +414,7 @@
         </EX_Extent>
       </extent>
       <supplementalInformation>
-        <gco:CharacterString>Metadata created by AGSL staff for internal and discovery use. For official metadata contact the resource Point of Contact.</gco:CharacterString>
+        <gco:CharacterString>AGSL staff supplemented original metadata. For official metadata please see readme_misc.txt and WisconsinLATABoundaries.htm.</gco:CharacterString>
       </supplementalInformation>
     </MD_DataIdentification>
   </identificationInfo>
@@ -563,45 +501,29 @@
           <distributorContact>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+                <gco:CharacterString>Wisconsin Department of Administration</gco:CharacterString>
               </organisationName>
               <contactInfo>
                 <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                        <gco:CharacterString>101 E Wilson Street, 9th Floor</gco:CharacterString>
                       </deliveryPoint>
                       <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
+                        <gco:CharacterString>Madison</gco:CharacterString>
                       </city>
                       <administrativeArea>
                         <gco:CharacterString>WI</gco:CharacterString>
                       </administrativeArea>
                       <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
+                        <gco:CharacterString>53703</gco:CharacterString>
                       </postalCode>
                       <country>
                         <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                       </country>
                     </CI_Address>
                   </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
                 </CI_Contact>
               </contactInfo>
               <role>
@@ -624,7 +546,7 @@
       <transferOptions>
         <MD_DigitalTransferOptions>
           <transferSize>
-            <gco:Real>0.25</gco:Real>
+            <gco:Real>0.755</gco:Real>
           </transferSize>
         </MD_DigitalTransferOptions>
       </transferOptions>
@@ -640,6 +562,22 @@
         </DQ_Scope>
       </scope>
       <report>
+        <DQ_FormatConsistency>
+          <measureDescription>
+            <gco:CharacterString>[The source ARC/INFO coverages had polygon topology with no dangling arcs. No errors were reported upon conversion to shapefiles.]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_FormatConsistency>
+      </report>
+      <report>
+        <DQ_CompletenessCommission>
+          <measureDescription>
+            <gco:CharacterString>[This data layer does not reflect changes which have occurred after the source date.]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_CompletenessCommission>
+      </report>
+      <report>
         <DQ_QuantitativeAttributeAccuracy>
           <measureDescription>
             <gco:CharacterString>Attribute information remains the same as given by the author of the data.</gco:CharacterString>
@@ -652,8 +590,54 @@
           <processStep>
             <LI_ProcessStep>
               <description>
-                <gco:CharacterString>Changed name of file from bc_muni_p.shp to BrownCounty_MinorCivilDivisions_2002.shp.</gco:CharacterString>
+                <gco:CharacterString>[The Wisconsin telephone exchange boundary coverage contains an attribute designating the LATA for each exchange. Arc/Info's "dissolve" command was used, which removed the boundaries between exchanges with the same lata attribute, creating a LATA coverage. The coverage was subsequently converted into an ESRI shapefile.]</gco:CharacterString>
               </description>
+              <dateTime>
+                <gco:DateTime>1999-01-01T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <organisationName>
+                    <gco:CharacterString>Wisconsin Department of Administration</gco:CharacterString>
+                  </organisationName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>101 E Wilson Street, 9th Floor</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Madison</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>WI</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>53703</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                          </country>
+                        </CI_Address>
+                      </address>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>Changed name of file from lata.shp to Wisconsin_LocalAccessTransportAreas_2019.shp</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2019-09-30T00:00:00</gco:DateTime>
+              </dateTime>
               <processor>
                 <CI_ResponsibleParty>
                   <individualName>
@@ -702,7 +686,7 @@
                     </CI_Contact>
                   </contactInfo>
                   <role>
-                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
                   </role>
                 </CI_ResponsibleParty>
               </processor>

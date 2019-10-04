@@ -1,6 +1,6 @@
 ﻿<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileIdentifier>
-    <gco:CharacterString>ADB48EAF-AF28-4485-A810-43B5D6386707</gco:CharacterString>
+    <gco:CharacterString>43C451C3-02C8-4D6A-8B6C-7089388340F3</gco:CharacterString>
   </fileIdentifier>
   <language>
     <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
@@ -67,7 +67,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2019-10-02</gco:Date>
+    <gco:Date>2019-09-16</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -86,7 +86,7 @@
             <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
           </geometricObjectType>
           <geometricObjectCount>
-            <gco:Integer>28</gco:Integer>
+            <gco:Integer>2537</gco:Integer>
           </geometricObjectCount>
         </MD_GeometricObjects>
       </geometricObjects>
@@ -97,8 +97,14 @@
       <referenceSystemIdentifier>
         <RS_Identifier>
           <code>
-            <gco:CharacterString>0</gco:CharacterString>
+            <gco:CharacterString>3070</gco:CharacterString>
           </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </codeSpace>
+          <version>
+            <gco:CharacterString>9.6.3</gco:CharacterString>
+          </version>
         </RS_Identifier>
       </referenceSystemIdentifier>
     </MD_ReferenceSystem>
@@ -108,132 +114,47 @@
       <citation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>Minor Civil Divisions Brown County, Wisconsin 2002</gco:CharacterString>
+            <gco:CharacterString>Minor Civil Divisions Wisconsin 2000</gco:CharacterString>
           </title>
           <alternateTitle>
-            <gco:CharacterString>BrownCounty_MinorCivilDivisions_2002</gco:CharacterString>
+            <gco:CharacterString>Wisconsin_MinorCivilDivisions_2000</gco:CharacterString>
           </alternateTitle>
           <date>
             <CI_Date>
               <date>
-                <gco:Date>2002-01-01</gco:Date>
+                <gco:Date>2000-01-01</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2000-01-01</gco:Date>
               </date>
               <dateType>
                 <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
               </dateType>
             </CI_Date>
           </date>
-          <citedResponsibleParty>
-            <CI_ResponsibleParty>
-              <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
-              </organisationName>
-              <contactInfo>
-                <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
-                  <address>
-                    <CI_Address>
-                      <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
-                      </deliveryPoint>
-                      <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
-                      </city>
-                      <administrativeArea>
-                        <gco:CharacterString>WI</gco:CharacterString>
-                      </administrativeArea>
-                      <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
-                      </postalCode>
-                      <country>
-                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
-                      </country>
-                    </CI_Address>
-                  </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
-                </CI_Contact>
-              </contactInfo>
-              <role>
-                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
-              </role>
-            </CI_ResponsibleParty>
-          </citedResponsibleParty>
-          <citedResponsibleParty>
-            <CI_ResponsibleParty>
-              <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
-              </organisationName>
-              <contactInfo>
-                <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
-                  <address>
-                    <CI_Address>
-                      <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
-                      </deliveryPoint>
-                      <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
-                      </city>
-                      <administrativeArea>
-                        <gco:CharacterString>WI</gco:CharacterString>
-                      </administrativeArea>
-                      <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
-                      </postalCode>
-                      <country>
-                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
-                      </country>
-                    </CI_Address>
-                  </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
-                </CI_Contact>
-              </contactInfo>
-              <role>
-                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
-              </role>
-            </CI_ResponsibleParty>
-          </citedResponsibleParty>
           <presentationForm>
             <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
           </presentationForm>
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This polygon data layer represents minor civil divisions for Brown County, Wisconsin in 2002. The dataset was originally published by the Brown County Land Information Office in 2002.</gco:CharacterString>
+        <gco:CharacterString>This polygon data layer represents minor civil divisions for the sate of Wisconsin in 2000. The dataset was originally published by the United States Census Bureau and then processed by the Legislateive Technology Services Bureau in 2000.[This data layer is a polygon shapefile of the (year) 2000 minor civil divisions in Wisconsin, derived from the 2000 TIGER line files. It is referenced to the Wisconsin Transverse Mercator (WTM) projection system, North American Datum 1983 with the 1991 adjustment (NAD83/91).]</gco:CharacterString>
       </abstract>
       <purpose>
-        <gco:CharacterString>This layer is intended for reference and mapping purposes and may be used for basic applications such as viewing, querying, and map output production or to provide a basemap to support graphical overlays and analysis with other spatial data.</gco:CharacterString>
+        <gco:CharacterString>This layer is intended for reference and mapping purposes and may be used for basic applications such as viewing, querying, and map output production or to provide a basemap to support graphical overlays and analysis with other spatial data.
+
+[This data layer is for use in generalized mapping applications. The level of accuracy does not support detailed local analysis. The data layer is intended for use with GIS software.]</gco:CharacterString>
       </purpose>
       <credit>
-        <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+        <gco:CharacterString>Legislative Technology Services Bureau
+[United States Census Bureau]</gco:CharacterString>
       </credit>
       <status>
         <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
@@ -241,99 +162,93 @@
       <pointOfContact>
         <CI_ResponsibleParty>
           <organisationName>
-            <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+            <gco:CharacterString>Legislative Technology Services Bureau</gco:CharacterString>
           </organisationName>
           <contactInfo>
             <CI_Contact>
               <phone>
                 <CI_Telephone>
                   <voice>
-                    <gco:CharacterString>920-448-6480</gco:CharacterString>
+                    <gco:CharacterString>(608) 283-7165</gco:CharacterString>
                   </voice>
-                  <facsimile>
-                    <gco:CharacterString>920-448-4487</gco:CharacterString>
-                  </facsimile>
                 </CI_Telephone>
               </phone>
               <address>
                 <CI_Address>
                   <deliveryPoint>
-                    <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
+                    <gco:CharacterString>17 West Main Street</gco:CharacterString>
                   </deliveryPoint>
                   <deliveryPoint>
-                    <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                    <gco:CharacterString>Suite 200</gco:CharacterString>
                   </deliveryPoint>
                   <city>
-                    <gco:CharacterString>Green Bay</gco:CharacterString>
+                    <gco:CharacterString>Madison</gco:CharacterString>
                   </city>
                   <administrativeArea>
                     <gco:CharacterString>WI</gco:CharacterString>
                   </administrativeArea>
                   <postalCode>
-                    <gco:CharacterString>54305-3600</gco:CharacterString>
+                    <gco:CharacterString>53703-3305</gco:CharacterString>
                   </postalCode>
                   <country>
                     <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                   </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>Gis@legis.wisconsin.gov</gco:CharacterString>
+                  </electronicMailAddress>
                 </CI_Address>
               </address>
-              <hoursOfService>
-                <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-              </hoursOfService>
             </CI_Contact>
           </contactInfo>
           <role>
-            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner" codeSpace="ISOTC211/19115">owner</CI_RoleCode>
           </role>
         </CI_ResponsibleParty>
       </pointOfContact>
       <resourceMaintenance>
         <MD_MaintenanceInformation>
           <maintenanceAndUpdateFrequency>
-            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">unknown</MD_MaintenanceFrequencyCode>
+            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
           </maintenanceAndUpdateFrequency>
           <contact>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+                <gco:CharacterString>Legislative Technology Services Bureau</gco:CharacterString>
               </organisationName>
               <contactInfo>
                 <CI_Contact>
                   <phone>
                     <CI_Telephone>
                       <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
+                        <gco:CharacterString>(608) 283-7165</gco:CharacterString>
                       </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
                     </CI_Telephone>
                   </phone>
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
+                        <gco:CharacterString>17 West Main Street</gco:CharacterString>
                       </deliveryPoint>
                       <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                        <gco:CharacterString>Suite 200</gco:CharacterString>
                       </deliveryPoint>
                       <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
+                        <gco:CharacterString>Madison</gco:CharacterString>
                       </city>
                       <administrativeArea>
                         <gco:CharacterString>WI</gco:CharacterString>
                       </administrativeArea>
                       <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
+                        <gco:CharacterString>53703-3305</gco:CharacterString>
                       </postalCode>
                       <country>
                         <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                       </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>Gis@legis.wisconsin.gov</gco:CharacterString>
+                      </electronicMailAddress>
                     </CI_Address>
                   </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
                 </CI_Contact>
               </contactInfo>
               <role>
@@ -345,9 +260,6 @@
       </resourceMaintenance>
       <descriptiveKeywords>
         <MD_Keywords>
-          <keyword>
-            <gco:CharacterString>Brown County</gco:CharacterString>
-          </keyword>
           <keyword>
             <gco:CharacterString>Wisconsin</gco:CharacterString>
           </keyword>
@@ -414,7 +326,7 @@
       <resourceConstraints>
         <MD_Constraints>
           <useLimitation>
-            <gco:CharacterString>Please see the UWM Libraries statement on Copyright and Digital Collections.</gco:CharacterString>
+            <gco:CharacterString>Please see UWM Libraries statement on Copyright and Digital Collections.[There are no distribution constraints on this data layer.][For use at scales no larger than 100,000.]</gco:CharacterString>
           </useLimitation>
         </MD_Constraints>
       </resourceConstraints>
@@ -424,7 +336,7 @@
             <gco:CharacterString>Although this data is being distributed by the American Geographical Society Library at the University of Wisconsin-Milwaukee Libraries, no warranty expressed or implied is made by the University as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the University in the use of this data, or related materials.</gco:CharacterString>
           </useLimitation>
           <otherConstraints>
-            <gco:CharacterString>Restricted to distribution to UW-System students, faculty, or staff for educational use.</gco:CharacterString>
+            <gco:CharacterString>None</gco:CharacterString>
           </otherConstraints>
         </MD_LegalConstraints>
       </resourceConstraints>
@@ -451,24 +363,24 @@
                 <gco:Boolean>true</gco:Boolean>
               </extentTypeCode>
               <westBoundLongitude>
-                <gco:Decimal>-88.252631</gco:Decimal>
+                <gco:Decimal>-92.964434</gco:Decimal>
               </westBoundLongitude>
               <eastBoundLongitude>
-                <gco:Decimal>-87.762206</gco:Decimal>
+                <gco:Decimal>-86.666231</gco:Decimal>
               </eastBoundLongitude>
               <southBoundLatitude>
-                <gco:Decimal>44.240107</gco:Decimal>
+                <gco:Decimal>42.456929</gco:Decimal>
               </southBoundLatitude>
               <northBoundLatitude>
-                <gco:Decimal>44.680117</gco:Decimal>
+                <gco:Decimal>47.083193</gco:Decimal>
               </northBoundLatitude>
             </EX_GeographicBoundingBox>
           </geographicElement>
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimeInstant gml:id="ID0E5EAC">
-                  <gml:timePosition>2002-01-01T00:00:00</gml:timePosition>
+                <gml:TimeInstant gml:id="ID0ENF">
+                  <gml:timePosition>2000-01-01T00:00:00</gml:timePosition>
                 </gml:TimeInstant>
               </extent>
             </EX_TemporalExtent>
@@ -476,7 +388,7 @@
         </EX_Extent>
       </extent>
       <supplementalInformation>
-        <gco:CharacterString>Metadata created by AGSL staff for internal and discovery use. For official metadata contact the resource Point of Contact.</gco:CharacterString>
+        <gco:CharacterString>AGSL staff supplemented original metadata. For official metadata please see Wisconsin2000MCDs.htm.</gco:CharacterString>
       </supplementalInformation>
     </MD_DataIdentification>
   </identificationInfo>
@@ -487,144 +399,13 @@
           <name>
             <gco:CharacterString>Shapefile</gco:CharacterString>
           </name>
-          <version>
-            <gco:CharacterString>1.0</gco:CharacterString>
-          </version>
+          <version gco:nilReason="missing" />
         </MD_Format>
       </distributionFormat>
-      <distributor>
-        <MD_Distributor>
-          <distributorContact>
-            <CI_ResponsibleParty>
-              <individualName>
-                <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
-              </individualName>
-              <organisationName>
-                <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
-              </organisationName>
-              <positionName>
-                <gco:CharacterString>GIS Staff</gco:CharacterString>
-              </positionName>
-              <contactInfo>
-                <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>(414)-229-6282</gco:CharacterString>
-                      </voice>
-                    </CI_Telephone>
-                  </phone>
-                  <address>
-                    <CI_Address>
-                      <deliveryPoint>
-                        <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
-                      </deliveryPoint>
-                      <city>
-                        <gco:CharacterString>Milwaukee</gco:CharacterString>
-                      </city>
-                      <administrativeArea>
-                        <gco:CharacterString>WI</gco:CharacterString>
-                      </administrativeArea>
-                      <postalCode>
-                        <gco:CharacterString>53211</gco:CharacterString>
-                      </postalCode>
-                      <country>
-                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
-                      </country>
-                      <electronicMailAddress>
-                        <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
-                      </electronicMailAddress>
-                    </CI_Address>
-                  </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
-                  </hoursOfService>
-                </CI_Contact>
-              </contactInfo>
-              <role>
-                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
-              </role>
-            </CI_ResponsibleParty>
-          </distributorContact>
-          <distributorFormat>
-            <MD_Format>
-              <name>
-                <gco:CharacterString>Shapefile</gco:CharacterString>
-              </name>
-              <version>
-                <gco:CharacterString>1.0</gco:CharacterString>
-              </version>
-            </MD_Format>
-          </distributorFormat>
-        </MD_Distributor>
-      </distributor>
-      <distributor>
-        <MD_Distributor>
-          <distributorContact>
-            <CI_ResponsibleParty>
-              <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
-              </organisationName>
-              <contactInfo>
-                <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
-                  <address>
-                    <CI_Address>
-                      <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
-                      </deliveryPoint>
-                      <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
-                      </city>
-                      <administrativeArea>
-                        <gco:CharacterString>WI</gco:CharacterString>
-                      </administrativeArea>
-                      <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
-                      </postalCode>
-                      <country>
-                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
-                      </country>
-                    </CI_Address>
-                  </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
-                </CI_Contact>
-              </contactInfo>
-              <role>
-                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
-              </role>
-            </CI_ResponsibleParty>
-          </distributorContact>
-          <distributorFormat>
-            <MD_Format>
-              <name>
-                <gco:CharacterString>Shapefile</gco:CharacterString>
-              </name>
-              <version>
-                <gco:CharacterString>1.0</gco:CharacterString>
-              </version>
-            </MD_Format>
-          </distributorFormat>
-        </MD_Distributor>
-      </distributor>
       <transferOptions>
         <MD_DigitalTransferOptions>
           <transferSize>
-            <gco:Real>0.25</gco:Real>
+            <gco:Real>4.926</gco:Real>
           </transferSize>
         </MD_DigitalTransferOptions>
       </transferOptions>
@@ -647,13 +428,88 @@
           <result gco:nilReason="missing" />
         </DQ_QuantitativeAttributeAccuracy>
       </report>
+      <report>
+        <DQ_FormatConsistency>
+          <measureDescription>
+            <gco:CharacterString>[The source ARC/INFO coverages had polygon topology with no dangling arcs. No errors were reported upon conversion to shapefiles.]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_FormatConsistency>
+      </report>
+      <report>
+        <DQ_CompletenessCommission>
+          <measureDescription>
+            <gco:CharacterString>[This data layer does not reflect changes which have occurred after the source date. To the best knowledge of the GIS Service Center, this shapefile includes all minor civil divisions in Wisconsin.]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_CompletenessCommission>
+      </report>
       <lineage>
         <LI_Lineage>
           <processStep>
             <LI_ProcessStep>
               <description>
-                <gco:CharacterString>Changed name of file from bc_muni_p.shp to BrownCounty_MinorCivilDivisions_2002.shp.</gco:CharacterString>
+                <gco:CharacterString>[2000 TIGER line files were downloaded off the U.S. Census Bureau's web site as zipped files. The zipped files were unzipped using PKZIP. The coverages were created through a series of AMLS run on ArcInfo workstation 8.0 on an NT operating system. The original coverages were in decimal degree, with a datum of NAD83. The coverages were reprojected into WTM83/91. The resulting coverages were then appended to form a statewide coverage. MCDs with errors were then noted, changes were corrected on the original county coverage, and were appended once again to form a statewide coverage. Both the single and multi-part polygon shapefiles were subsequently created from the appended coverage.]</gco:CharacterString>
               </description>
+              <dateTime>
+                <gco:DateTime>2000-06-01T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <organisationName>
+                    <gco:CharacterString>Legislative Technology Services Bureau</gco:CharacterString>
+                  </organisationName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>(608) 283-7165</gco:CharacterString>
+                          </voice>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>17 West Main Street</gco:CharacterString>
+                          </deliveryPoint>
+                          <deliveryPoint>
+                            <gco:CharacterString>Suite 200</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Madison</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>WI</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>53703-3305</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                          </country>
+                          <electronicMailAddress>
+                            <gco:CharacterString>Gis@legis.wisconsin.gov</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>Changed name of file from wimcd00a.shp to Wisconsin_MinorCivilDivisions_2000.shp.</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2019-09-16T00:00:00</gco:DateTime>
+              </dateTime>
               <processor>
                 <CI_ResponsibleParty>
                   <individualName>

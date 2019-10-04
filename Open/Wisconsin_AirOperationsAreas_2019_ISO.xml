@@ -1,6 +1,6 @@
 ﻿<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileIdentifier>
-    <gco:CharacterString>ADB48EAF-AF28-4485-A810-43B5D6386707</gco:CharacterString>
+    <gco:CharacterString>51C07415-A56D-4081-A083-EBE6FC9576C3</gco:CharacterString>
   </fileIdentifier>
   <language>
     <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
@@ -67,7 +67,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2019-10-02</gco:Date>
+    <gco:Date>2019-09-24</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -86,7 +86,7 @@
             <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
           </geometricObjectType>
           <geometricObjectCount>
-            <gco:Integer>28</gco:Integer>
+            <gco:Integer>128</gco:Integer>
           </geometricObjectCount>
         </MD_GeometricObjects>
       </geometricObjects>
@@ -97,8 +97,14 @@
       <referenceSystemIdentifier>
         <RS_Identifier>
           <code>
-            <gco:CharacterString>0</gco:CharacterString>
+            <gco:CharacterString>3071</gco:CharacterString>
           </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </codeSpace>
+          <version>
+            <gco:CharacterString>9.6.3</gco:CharacterString>
+          </version>
         </RS_Identifier>
       </referenceSystemIdentifier>
     </MD_ReferenceSystem>
@@ -108,63 +114,67 @@
       <citation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>Minor Civil Divisions Brown County, Wisconsin 2002</gco:CharacterString>
+            <gco:CharacterString>Wisconsin Air Operations Areas 2019</gco:CharacterString>
           </title>
           <alternateTitle>
-            <gco:CharacterString>BrownCounty_MinorCivilDivisions_2002</gco:CharacterString>
+            <gco:CharacterString>Wisconsin_AirOperationsAreas_2019</gco:CharacterString>
           </alternateTitle>
           <date>
             <CI_Date>
               <date>
-                <gco:Date>2002-01-01</gco:Date>
+                <gco:Date>2019-03-01</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2019-03-01</gco:Date>
               </date>
               <dateType>
                 <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
               </dateType>
             </CI_Date>
           </date>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2019-03-01</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
           <citedResponsibleParty>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+                <gco:CharacterString>Wisconsin Department of Transportation</gco:CharacterString>
               </organisationName>
               <contactInfo>
                 <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                        <gco:CharacterString>4822 Madison Yards Way</gco:CharacterString>
                       </deliveryPoint>
                       <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
+                        <gco:CharacterString>Madison</gco:CharacterString>
                       </city>
                       <administrativeArea>
                         <gco:CharacterString>WI</gco:CharacterString>
                       </administrativeArea>
                       <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
+                        <gco:CharacterString>53705</gco:CharacterString>
                       </postalCode>
                       <country>
                         <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                       </country>
                     </CI_Address>
                   </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
                 </CI_Contact>
               </contactInfo>
               <role>
@@ -174,45 +184,48 @@
           </citedResponsibleParty>
           <citedResponsibleParty>
             <CI_ResponsibleParty>
+              <individualName>
+                <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+              </individualName>
               <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+                <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
               </organisationName>
+              <positionName>
+                <gco:CharacterString>GIS Staff</gco:CharacterString>
+              </positionName>
               <contactInfo>
                 <CI_Contact>
                   <phone>
                     <CI_Telephone>
                       <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
+                        <gco:CharacterString>(414)-229-6282</gco:CharacterString>
                       </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
                     </CI_Telephone>
                   </phone>
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                        <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
                       </deliveryPoint>
                       <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
+                        <gco:CharacterString>Milwaukee</gco:CharacterString>
                       </city>
                       <administrativeArea>
                         <gco:CharacterString>WI</gco:CharacterString>
                       </administrativeArea>
                       <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
+                        <gco:CharacterString>53211</gco:CharacterString>
                       </postalCode>
                       <country>
                         <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                       </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+                      </electronicMailAddress>
                     </CI_Address>
                   </address>
                   <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
+                    <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
                   </hoursOfService>
                 </CI_Contact>
               </contactInfo>
@@ -227,113 +240,111 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This polygon data layer represents minor civil divisions for Brown County, Wisconsin in 2002. The dataset was originally published by the Brown County Land Information Office in 2002.</gco:CharacterString>
+        <gco:CharacterString>This polygon data layer represents air operations areas for Wisconsin in 2019. The dataset was originally published by the Wisconsin Department of Transportation on March 1, 2019.[Wisconsin Air Operations Areas (AOA)]</gco:CharacterString>
       </abstract>
       <purpose>
-        <gco:CharacterString>This layer is intended for reference and mapping purposes and may be used for basic applications such as viewing, querying, and map output production or to provide a basemap to support graphical overlays and analysis with other spatial data.</gco:CharacterString>
+        <gco:CharacterString>This layer is intended for reference and mapping purposes and may be used for basic applications such as viewing, querying, and map output production or to provide a basemap to support graphical overlays and analysis with other spatial data.
+
+[The Bureau of Aeronautics manages spatial features and attribute data for the air operations areas buffer zones at each public use airport within the State of Wisconsin.  
+
+The airport operating area for each airport has been developed by WisDOT and are based on requirements outlined in FAA Advisory Circular (AC) 150/5200-33B. 
+
+This data is intended to provide general guidance and a geospatial reference for managing land use and wildlife hazard issues in and around Wisconsin public-use airports, specifically to make contractors and consultants aware of these areas as they pertain to off-airport construction or excavation projects.]</gco:CharacterString>
       </purpose>
       <credit>
-        <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+        <gco:CharacterString>Wisconsin Department of Transportation
+
+[WisDOT, Federal Aviation Administration (FAA)]</gco:CharacterString>
       </credit>
       <status>
         <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
       </status>
       <pointOfContact>
         <CI_ResponsibleParty>
+          <individualName>
+            <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+          </individualName>
           <organisationName>
-            <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+            <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
           </organisationName>
+          <positionName>
+            <gco:CharacterString>GIS Staff</gco:CharacterString>
+          </positionName>
           <contactInfo>
             <CI_Contact>
               <phone>
                 <CI_Telephone>
                   <voice>
-                    <gco:CharacterString>920-448-6480</gco:CharacterString>
+                    <gco:CharacterString>(414)-229-6282</gco:CharacterString>
                   </voice>
-                  <facsimile>
-                    <gco:CharacterString>920-448-4487</gco:CharacterString>
-                  </facsimile>
                 </CI_Telephone>
               </phone>
               <address>
                 <CI_Address>
                   <deliveryPoint>
-                    <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                  </deliveryPoint>
-                  <deliveryPoint>
-                    <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                    <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
                   </deliveryPoint>
                   <city>
-                    <gco:CharacterString>Green Bay</gco:CharacterString>
+                    <gco:CharacterString>Milwaukee</gco:CharacterString>
                   </city>
                   <administrativeArea>
                     <gco:CharacterString>WI</gco:CharacterString>
                   </administrativeArea>
                   <postalCode>
-                    <gco:CharacterString>54305-3600</gco:CharacterString>
+                    <gco:CharacterString>53211</gco:CharacterString>
                   </postalCode>
                   <country>
                     <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                   </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+                  </electronicMailAddress>
                 </CI_Address>
               </address>
               <hoursOfService>
-                <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
+                <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
               </hoursOfService>
             </CI_Contact>
           </contactInfo>
           <role>
-            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
           </role>
         </CI_ResponsibleParty>
       </pointOfContact>
       <resourceMaintenance>
         <MD_MaintenanceInformation>
           <maintenanceAndUpdateFrequency>
-            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">unknown</MD_MaintenanceFrequencyCode>
+            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="biannually" codeSpace="ISOTC211/19115">biannually</MD_MaintenanceFrequencyCode>
           </maintenanceAndUpdateFrequency>
+          <dateOfNextUpdate>
+            <gco:Date>2021-01-01</gco:Date>
+          </dateOfNextUpdate>
           <contact>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+                <gco:CharacterString>Wisconsin Department of Transportation</gco:CharacterString>
               </organisationName>
               <contactInfo>
                 <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                        <gco:CharacterString>4822 Madison Yards Way</gco:CharacterString>
                       </deliveryPoint>
                       <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
+                        <gco:CharacterString>Madison</gco:CharacterString>
                       </city>
                       <administrativeArea>
                         <gco:CharacterString>WI</gco:CharacterString>
                       </administrativeArea>
                       <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
+                        <gco:CharacterString>53705</gco:CharacterString>
                       </postalCode>
                       <country>
                         <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                       </country>
                     </CI_Address>
                   </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
                 </CI_Contact>
               </contactInfo>
               <role>
@@ -345,9 +356,6 @@
       </resourceMaintenance>
       <descriptiveKeywords>
         <MD_Keywords>
-          <keyword>
-            <gco:CharacterString>Brown County</gco:CharacterString>
-          </keyword>
           <keyword>
             <gco:CharacterString>Wisconsin</gco:CharacterString>
           </keyword>
@@ -385,10 +393,13 @@
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
-            <gco:CharacterString>Boundaries</gco:CharacterString>
+            <gco:CharacterString>Aeronautics</gco:CharacterString>
           </keyword>
           <keyword>
-            <gco:CharacterString>Administrative and political divisions</gco:CharacterString>
+            <gco:CharacterString>Airports</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Wildlife management</gco:CharacterString>
           </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
@@ -414,7 +425,7 @@
       <resourceConstraints>
         <MD_Constraints>
           <useLimitation>
-            <gco:CharacterString>Please see the UWM Libraries statement on Copyright and Digital Collections.</gco:CharacterString>
+            <gco:CharacterString>Please see the UWM Libraries statement on Copyright and Digital Collections.[This GIS material is made available as a public service to be used for reference purposes only. WisDOT is not responsible for any inaccuracies herein contained and no responsibility is assumed for damages or other liabilities due to the accuracy, availability, use or misuse of the information herein provided. While this data provides an indicator of air operation area locations, it does not serve as information by which to make legal or operational decisions. Please refer to the WisDOT Acceptable Use Policy website for more information http://wisconsindot.gov/Pages/global-footer/Acceptable-use-policy.aspx. For data corrections, please contact the Bureau of Aeronautics. WisDOT © Copyright 2019]</gco:CharacterString>
           </useLimitation>
         </MD_Constraints>
       </resourceConstraints>
@@ -424,7 +435,7 @@
             <gco:CharacterString>Although this data is being distributed by the American Geographical Society Library at the University of Wisconsin-Milwaukee Libraries, no warranty expressed or implied is made by the University as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the University in the use of this data, or related materials.</gco:CharacterString>
           </useLimitation>
           <otherConstraints>
-            <gco:CharacterString>Restricted to distribution to UW-System students, faculty, or staff for educational use.</gco:CharacterString>
+            <gco:CharacterString>None</gco:CharacterString>
           </otherConstraints>
         </MD_LegalConstraints>
       </resourceConstraints>
@@ -438,7 +449,13 @@
         <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
       </characterSet>
       <topicCategory>
-        <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
+        <MD_TopicCategoryCode>location</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>transportation</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>utilitiesCommunication</MD_TopicCategoryCode>
       </topicCategory>
       <environmentDescription>
         <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</gco:CharacterString>
@@ -451,24 +468,24 @@
                 <gco:Boolean>true</gco:Boolean>
               </extentTypeCode>
               <westBoundLongitude>
-                <gco:Decimal>-88.252631</gco:Decimal>
+                <gco:Decimal>-92.770049</gco:Decimal>
               </westBoundLongitude>
               <eastBoundLongitude>
-                <gco:Decimal>-87.762206</gco:Decimal>
+                <gco:Decimal>-86.843648</gco:Decimal>
               </eastBoundLongitude>
               <southBoundLatitude>
-                <gco:Decimal>44.240107</gco:Decimal>
+                <gco:Decimal>42.462824</gco:Decimal>
               </southBoundLatitude>
               <northBoundLatitude>
-                <gco:Decimal>44.680117</gco:Decimal>
+                <gco:Decimal>46.794475</gco:Decimal>
               </northBoundLatitude>
             </EX_GeographicBoundingBox>
           </geographicElement>
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimeInstant gml:id="ID0E5EAC">
-                  <gml:timePosition>2002-01-01T00:00:00</gml:timePosition>
+                <gml:TimeInstant gml:id="ID0ELIAC">
+                  <gml:timePosition>2019-03-01T00:00:00</gml:timePosition>
                 </gml:TimeInstant>
               </extent>
             </EX_TemporalExtent>
@@ -476,7 +493,7 @@
         </EX_Extent>
       </extent>
       <supplementalInformation>
-        <gco:CharacterString>Metadata created by AGSL staff for internal and discovery use. For official metadata contact the resource Point of Contact.</gco:CharacterString>
+        <gco:CharacterString>Augmented original metadata with AGSL specific elements. For official metadata contact the resource Point of Contact.</gco:CharacterString>
       </supplementalInformation>
     </MD_DataIdentification>
   </identificationInfo>
@@ -563,45 +580,29 @@
           <distributorContact>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Brown County Land Information Office</gco:CharacterString>
+                <gco:CharacterString>Wisconsin Department of Administration</gco:CharacterString>
               </organisationName>
               <contactInfo>
                 <CI_Contact>
-                  <phone>
-                    <CI_Telephone>
-                      <voice>
-                        <gco:CharacterString>920-448-6480</gco:CharacterString>
-                      </voice>
-                      <facsimile>
-                        <gco:CharacterString>920-448-4487</gco:CharacterString>
-                      </facsimile>
-                    </CI_Telephone>
-                  </phone>
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>305 E. Walnut St., Room 320</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>P.O. Box 23600</gco:CharacterString>
+                        <gco:CharacterString>101 E Wilson Street, 9th Floor</gco:CharacterString>
                       </deliveryPoint>
                       <city>
-                        <gco:CharacterString>Green Bay</gco:CharacterString>
+                        <gco:CharacterString>Madison</gco:CharacterString>
                       </city>
                       <administrativeArea>
                         <gco:CharacterString>WI</gco:CharacterString>
                       </administrativeArea>
                       <postalCode>
-                        <gco:CharacterString>54305-3600</gco:CharacterString>
+                        <gco:CharacterString>53703</gco:CharacterString>
                       </postalCode>
                       <country>
                         <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
                       </country>
                     </CI_Address>
                   </address>
-                  <hoursOfService>
-                    <gco:CharacterString>Monday-Friday 8:00 a.m. - 4:30 p.m.</gco:CharacterString>
-                  </hoursOfService>
                 </CI_Contact>
               </contactInfo>
               <role>
@@ -624,7 +625,7 @@
       <transferOptions>
         <MD_DigitalTransferOptions>
           <transferSize>
-            <gco:Real>0.25</gco:Real>
+            <gco:Real>0.051</gco:Real>
           </transferSize>
         </MD_DigitalTransferOptions>
       </transferOptions>
@@ -652,7 +653,7 @@
           <processStep>
             <LI_ProcessStep>
               <description>
-                <gco:CharacterString>Changed name of file from bc_muni_p.shp to BrownCounty_MinorCivilDivisions_2002.shp.</gco:CharacterString>
+                <gco:CharacterString>Changed name of file from AOA_2018.shp to Wisconsin_AirOperationsAreas_2019.shp.</gco:CharacterString>
               </description>
               <processor>
                 <CI_ResponsibleParty>
@@ -715,7 +716,7 @@
   <metadataConstraints>
     <MD_Constraints>
       <useLimitation>
-        <gco:CharacterString>None</gco:CharacterString>
+        <gco:CharacterString>None[This GIS material is made available as a public service to be used for reference purposes only. WisDOT is not responsible for any inaccuracies herein contained and no responsibility is assumed for damages or other liabilities due to the accuracy, availability, use or misuse of the information herein provided. While this data provides an indicator of air operation area locations, it does not serve as information by which to make legal or operational decisions. Please refer to the WisDOT Acceptable Use Policy website for more information http://wisconsindot.gov/Pages/global-footer/Acceptable-use-policy.aspx. For data corrections, please contact the Bureau of Aeronautics. WisDOT © Copyright 2019]</gco:CharacterString>
       </useLimitation>
     </MD_Constraints>
   </metadataConstraints>
