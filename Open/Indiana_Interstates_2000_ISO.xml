@@ -1,0 +1,1138 @@
+﻿<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileIdentifier>
+    <gco:CharacterString>2A8A1FE9-72C9-40C1-8577-F8F9DCF03C6D</gco:CharacterString>
+  </fileIdentifier>
+  <language>
+    <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+  </language>
+  <characterSet>
+    <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+  </characterSet>
+  <hierarchyLevel>
+    <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+  </hierarchyLevel>
+  <hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </hierarchyLevelName>
+  <contact>
+    <CI_ResponsibleParty>
+      <individualName>
+        <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+      </individualName>
+      <organisationName>
+        <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
+      </organisationName>
+      <positionName>
+        <gco:CharacterString>GIS Staff</gco:CharacterString>
+      </positionName>
+      <contactInfo>
+        <CI_Contact>
+          <phone>
+            <CI_Telephone>
+              <voice>
+                <gco:CharacterString>(414)-229-6282</gco:CharacterString>
+              </voice>
+            </CI_Telephone>
+          </phone>
+          <address>
+            <CI_Address>
+              <deliveryPoint>
+                <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
+              </deliveryPoint>
+              <city>
+                <gco:CharacterString>Milwaukee</gco:CharacterString>
+              </city>
+              <administrativeArea>
+                <gco:CharacterString>WI</gco:CharacterString>
+              </administrativeArea>
+              <postalCode>
+                <gco:CharacterString>53211</gco:CharacterString>
+              </postalCode>
+              <country>
+                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+              </country>
+              <electronicMailAddress>
+                <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+              </electronicMailAddress>
+            </CI_Address>
+          </address>
+          <hoursOfService>
+            <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
+          </hoursOfService>
+        </CI_Contact>
+      </contactInfo>
+      <role>
+        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
+      </role>
+    </CI_ResponsibleParty>
+  </contact>
+  <dateStamp>
+    <gco:Date>2020-01-09</gco:Date>
+  </dateStamp>
+  <metadataStandardName>
+    <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+  </metadataStandardName>
+  <metadataStandardVersion>
+    <gco:CharacterString>2007</gco:CharacterString>
+  </metadataStandardVersion>
+  <spatialRepresentationInfo>
+    <MD_VectorSpatialRepresentation>
+      <topologyLevel>
+        <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+      </topologyLevel>
+      <geometricObjects>
+        <MD_GeometricObjects>
+          <geometricObjectType>
+            <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
+          </geometricObjectType>
+          <geometricObjectCount>
+            <gco:Integer>177</gco:Integer>
+          </geometricObjectCount>
+        </MD_GeometricObjects>
+      </geometricObjects>
+    </MD_VectorSpatialRepresentation>
+  </spatialRepresentationInfo>
+  <referenceSystemInfo>
+    <MD_ReferenceSystem>
+      <referenceSystemIdentifier>
+        <RS_Identifier>
+          <code>
+            <gco:CharacterString>26916</gco:CharacterString>
+          </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </codeSpace>
+          <version>
+            <gco:CharacterString>6.13(3.0.1)</gco:CharacterString>
+          </version>
+        </RS_Identifier>
+      </referenceSystemIdentifier>
+    </MD_ReferenceSystem>
+  </referenceSystemInfo>
+  <identificationInfo>
+    <MD_DataIdentification>
+      <citation>
+        <CI_Citation>
+          <title>
+            <gco:CharacterString>Interstates Indiana 2000</gco:CharacterString>
+          </title>
+          <alternateTitle>
+            <gco:CharacterString>Indiana_Interstates_2000</gco:CharacterString>
+          </alternateTitle>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2003-06-23</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <edition>
+            <gco:CharacterString>[Census 2000]</gco:CharacterString>
+          </edition>
+          <citedResponsibleParty>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>Indiana Geological &amp; Water Survey</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>812-855-7636</gco:CharacterString>
+                      </voice>
+                      <facsimile>
+                        <gco:CharacterString>812-339-8705</gco:CharacterString>
+                      </facsimile>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>420 N. Walnut St.</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Bloomington</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>IN </gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>47404</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>igwsinfo@indiana.edu</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                  <hoursOfService>
+                    <gco:CharacterString>8:30 AM - 4:30 PM, Monday - Friday</gco:CharacterString>
+                  </hoursOfService>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </citedResponsibleParty>
+          <citedResponsibleParty>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>Indiana Geological &amp; Water Survey</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>812-855-7636</gco:CharacterString>
+                      </voice>
+                      <facsimile>
+                        <gco:CharacterString>812-339-8705</gco:CharacterString>
+                      </facsimile>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>420 N. Walnut St.</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Bloomington</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>IN </gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>47404</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>igwsinfo@indiana.edu</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                  <hoursOfService>
+                    <gco:CharacterString>8:30 AM - 4:30 PM, Monday - Friday</gco:CharacterString>
+                  </hoursOfService>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </citedResponsibleParty>
+          <presentationForm>
+            <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+          </presentationForm>
+          <otherCitationDetails>
+            <gco:CharacterString>[This data set is derived from a source data set named "ROADS_TIGER00_IN," which was provided to the IGS by Bernardin, Lochmueller and Associates. ROADS_TIGER00_IN is based on information from U.S. Department of Commerce, U.S. Census Bureau, Census 2000 Tiger Line Files.]</gco:CharacterString>
+          </otherCitationDetails>
+        </CI_Citation>
+      </citation>
+      <abstract>
+        <gco:CharacterString>This line data layer represents interstates for Indiana in 2000. The dataset was originally published by the Indiana Geological Survey on June 23, 2003.[INTERSTATES_TIGER_IGS_IN is an ESRI ArcGIS shapefile of interstate highways in Indiana. Personnel of the IGS processed the road information contained in ROADS_TIGER00_IN, as produced by the U.S. Department of Commerce, U.S. Census Bureau, to show only the interstate highways in Indiana.]</gco:CharacterString>
+      </abstract>
+      <purpose>
+        <gco:CharacterString>This layer is intended for reference and mapping purposes and may be used for basic applications such as viewing, querying, and map output production or to provide a basemap to support graphical overlays and analysis with other spatial data.
+
+[INTERSTATES_TIGER_IGS_IN was created to show only interstate highways in Indiana.]</gco:CharacterString>
+      </purpose>
+      <credit>
+        <gco:CharacterString>Indiana Geological &amp; Water Survey
+
+[It is requested that the Indiana Geological Survey be cited in any products generated from this data set. The following source citation should be included: [INTERSTATES_TIGER_IGS_IN: Interstate Highways in Indiana, Derived from TIGER Files (U.S. Census Bureau, 1:100,000, Line Shapefile), Indiana Geological Survey, 2003].]
+
+[U.S. Census Bureau requests "Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files. TIGER, TIGER/Line, and Census TIGER are registered trademarks of the U.S. Census Bureau. ZCTA is a trademark of the U.S. Census Bureau."]
+
+[AVENZA Systems Inc. is acknowledged for shapefile conversion.]</gco:CharacterString>
+      </credit>
+      <status>
+        <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
+      </status>
+      <pointOfContact>
+        <CI_ResponsibleParty>
+          <organisationName>
+            <gco:CharacterString>Indiana Geological &amp; Water Survey</gco:CharacterString>
+          </organisationName>
+          <contactInfo>
+            <CI_Contact>
+              <phone>
+                <CI_Telephone>
+                  <voice>
+                    <gco:CharacterString>812-855-7636</gco:CharacterString>
+                  </voice>
+                  <facsimile>
+                    <gco:CharacterString>812-339-8705</gco:CharacterString>
+                  </facsimile>
+                </CI_Telephone>
+              </phone>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>420 N. Walnut St.</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Bloomington</gco:CharacterString>
+                  </city>
+                  <administrativeArea>
+                    <gco:CharacterString>IN </gco:CharacterString>
+                  </administrativeArea>
+                  <postalCode>
+                    <gco:CharacterString>47404</gco:CharacterString>
+                  </postalCode>
+                  <country>
+                    <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                  </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>igwsinfo@indiana.edu</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+              <hoursOfService>
+                <gco:CharacterString>8:30 AM - 4:30 PM, Monday - Friday</gco:CharacterString>
+              </hoursOfService>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </pointOfContact>
+      <resourceMaintenance>
+        <MD_MaintenanceInformation>
+          <maintenanceAndUpdateFrequency>
+            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular" codeSpace="ISOTC211/19115">irregular</MD_MaintenanceFrequencyCode>
+          </maintenanceAndUpdateFrequency>
+          <contact>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>Indiana Geological &amp; Water Survey</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>812-855-7636</gco:CharacterString>
+                      </voice>
+                      <facsimile>
+                        <gco:CharacterString>812-339-8705</gco:CharacterString>
+                      </facsimile>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>420 N. Walnut St.</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Bloomington</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>IN </gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>47404</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>igwsinfo@indiana.edu</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                  <hoursOfService>
+                    <gco:CharacterString>8:30 AM - 4:30 PM, Monday - Friday</gco:CharacterString>
+                  </hoursOfService>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </contact>
+        </MD_MaintenanceInformation>
+      </resourceMaintenance>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Indiana</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+          </type>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>GeoNames</gco:CharacterString>
+              </title>
+              <date gco:nilReason="missing" />
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Line</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+          </type>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>FGDC</gco:CharacterString>
+              </title>
+              <date gco:nilReason="missing" />
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Interstate Highway System</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Express highways</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+          </type>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>LCSH</gco:CharacterString>
+              </title>
+              <date gco:nilReason="missing" />
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Downloadable Data</gco:CharacterString>
+          </keyword>
+          <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66" />
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <resourceConstraints>
+        <MD_Constraints>
+          <useLimitation>
+            <gco:CharacterString>Please see UWM Libraries statement on Copyright and Digital Collections.[This file is available to anyone, but access may be contingent on written request, specific terms relevant to the agency or person making the request, and (or) current freedom of information statutes in the state of Indiana.]</gco:CharacterString>
+          </useLimitation>
+        </MD_Constraints>
+      </resourceConstraints>
+      <resourceConstraints>
+        <MD_LegalConstraints>
+          <useLimitation>
+            <gco:CharacterString>Although this data is being distributed by the American Geographical Society Library at the University of Wisconsin-Milwaukee Libraries, no warranty expressed or implied is made by the University as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the University in the use of this data, or related materials.
+
+[INDIANA GEOLOGICAL SURVEY DATA DISCLAIMER
+This data set is provided by Indiana University, Indiana Geological Survey, and contains data believed to be accurate; however, a degree of error is inherent in all data. This product is distributed "AS-IS" without warranties of any kind, either expressed or implied, including but not limited to warranties of suitability of a particular purpose or use. No attempt has been made in either the designed format or production of these data to define the limits or jurisdiction of any federal, state, or local government.
+
+These data are intended for use only at the published scale or smaller and are for reference purposes only. They are not to be construed as a legal document or survey instrument. A detailed on-the-ground survey and historical analysis of a single site may differ from these data.
+
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data set. The following source citation should be included: [INTERSTATES_TIGER_IGS_IN: Interstate Highways in Indiana, Derived from TIGER Files (U.S. Census Bureau, 1:100,000, Line Shapefile)].
+
+Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files. TIGER, TIGER/Line, and Census TIGER are registered trademarks of the U.S. Census Bureau. ZCTA is a trademark of the U.S. Census Bureau.
+
+Please acknowledge AVENZA Systems Inc. for shapefile conversion.
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.]</gco:CharacterString>
+          </useLimitation>
+          <otherConstraints>
+            <gco:CharacterString>None</gco:CharacterString>
+          </otherConstraints>
+        </MD_LegalConstraints>
+      </resourceConstraints>
+      <spatialRepresentationType>
+        <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+      </spatialRepresentationType>
+      <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+      </language>
+      <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+      </characterSet>
+      <topicCategory>
+        <MD_TopicCategoryCode>transportation</MD_TopicCategoryCode>
+      </topicCategory>
+      <environmentDescription>
+        <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.6.1.9270</gco:CharacterString>
+      </environmentDescription>
+      <extent>
+        <EX_Extent>
+          <geographicElement>
+            <EX_GeographicBoundingBox>
+              <extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </extentTypeCode>
+              <westBoundLongitude>
+                <gco:Decimal>-88.037139</gco:Decimal>
+              </westBoundLongitude>
+              <eastBoundLongitude>
+                <gco:Decimal>-84.734015</gco:Decimal>
+              </eastBoundLongitude>
+              <southBoundLatitude>
+                <gco:Decimal>37.918425</gco:Decimal>
+              </southBoundLatitude>
+              <northBoundLatitude>
+                <gco:Decimal>41.777308</gco:Decimal>
+              </northBoundLatitude>
+            </EX_GeographicBoundingBox>
+          </geographicElement>
+          <temporalElement>
+            <EX_TemporalExtent>
+              <extent>
+                <gml:TimeInstant gml:id="ID0ECAAC">
+                  <gml:timePosition>2000-01-01T00:00:00</gml:timePosition>
+                </gml:TimeInstant>
+              </extent>
+            </EX_TemporalExtent>
+          </temporalElement>
+        </EX_Extent>
+      </extent>
+      <supplementalInformation>
+        <gco:CharacterString>AGSL staff supplemented original metadata. For official metadata please see Interstates_TIGER_IGS_IN.html.
+
+[INTERSTATES_TIGER_IGS_IN was extracted from the field named "CFCC" in ROADS_TIGER00_IN, using the following values that designate sections of interstate highways: A11, A13, A15, and A17. Additionally, some gaps were filled by manual digitization by IGS personnel using ArcGIS.]</gco:CharacterString>
+      </supplementalInformation>
+    </MD_DataIdentification>
+  </identificationInfo>
+  <distributionInfo>
+    <MD_Distribution>
+      <distributionFormat>
+        <MD_Format>
+          <name>
+            <gco:CharacterString>Shapefile</gco:CharacterString>
+          </name>
+          <version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </version>
+        </MD_Format>
+      </distributionFormat>
+      <distributor>
+        <MD_Distributor>
+          <distributorContact>
+            <CI_ResponsibleParty>
+              <individualName>
+                <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+              </individualName>
+              <organisationName>
+                <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
+              </organisationName>
+              <positionName>
+                <gco:CharacterString>GIS Staff</gco:CharacterString>
+              </positionName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>(414)-229-6282</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Milwaukee</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>WI</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>53211</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                  <hoursOfService>
+                    <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
+                  </hoursOfService>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </distributorContact>
+          <distributorFormat>
+            <MD_Format>
+              <name>
+                <gco:CharacterString>Shapefile</gco:CharacterString>
+              </name>
+              <version>
+                <gco:CharacterString>1.0</gco:CharacterString>
+              </version>
+            </MD_Format>
+          </distributorFormat>
+        </MD_Distributor>
+      </distributor>
+      <distributor>
+        <MD_Distributor>
+          <distributorContact>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>Indiana Geological &amp; Water Survey</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>812-855-7636</gco:CharacterString>
+                      </voice>
+                      <facsimile>
+                        <gco:CharacterString>812-339-8705</gco:CharacterString>
+                      </facsimile>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>420 N. Walnut St.</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Bloomington</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>IN </gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>47404</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>igwsinfo@indiana.edu</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                  <hoursOfService>
+                    <gco:CharacterString>8:30 AM - 4:30 PM, Monday - Friday</gco:CharacterString>
+                  </hoursOfService>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </distributorContact>
+          <distributorFormat>
+            <MD_Format>
+              <name>
+                <gco:CharacterString>Shapefile</gco:CharacterString>
+              </name>
+              <version>
+                <gco:CharacterString>1.0</gco:CharacterString>
+              </version>
+            </MD_Format>
+          </distributorFormat>
+        </MD_Distributor>
+      </distributor>
+      <transferOptions>
+        <MD_DigitalTransferOptions>
+          <transferSize>
+            <gco:Real>0.13</gco:Real>
+          </transferSize>
+        </MD_DigitalTransferOptions>
+      </transferOptions>
+    </MD_Distribution>
+  </distributionInfo>
+  <dataQualityInfo>
+    <DQ_DataQuality>
+      <scope>
+        <DQ_Scope>
+          <level>
+            <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+          </level>
+        </DQ_Scope>
+      </scope>
+      <report>
+        <DQ_QuantitativeAttributeAccuracy>
+          <measureDescription>
+            <gco:CharacterString>Attribute information remains the same as given by the author of the data.</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_QuantitativeAttributeAccuracy>
+      </report>
+      <report>
+        <DQ_QuantitativeAttributeAccuracy>
+          <measureDescription>
+            <gco:CharacterString>[The following is excerpted from the U.S. Census Bureau, TIGER metadata:
+"Accurate against Federal information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names. The remaining attribute information has been examined but has not been fully tested for accuracy."]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_QuantitativeAttributeAccuracy>
+      </report>
+      <report>
+        <DQ_FormatConsistency>
+          <measureDescription>
+            <gco:CharacterString>[The following is excerpted from the U.S. Census Bureau, TIGER metadata:
+"The feature network of lines (as represented by Record Types 1 and 2) is complete for census purposes. Spatial objects in TIGER/Line belong to the "Geometry and Topology" (GT) class of objects in the "Spatial Data Transfer Standard" (SDTS) FIPS Publication 173 and are topologically valid. Node/geometry and topology (GT)-polygon/chain relationships are collected or generated to satisfy topological edit requirements. These requirements include:
+
+* Complete chains must begin and end at nodes.
+
+* Complete chains must connect to each other at nodes.
+
+* Complete chains do not extend through nodes.
+
+* Left and right GT-polygons are defined for each complete chain element and are consistent throughout the extract process.
+
+* The chains representing the limits of the files are free of gaps.
+
+The Census Bureau performed automated tests to ensure logical consistency and limits of files. All polygons are tested for closure. The Census Bureau uses its internally developed Geographic Update System to enhance and modify spatial and attribute data in the Census TIGER data base. Standard geographic codes, such as FIPS codes for states, counties, municipalities, and places, are used when encoding spatial entities. The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census TIGER data base files. Most of the Codes themselves were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55. Feature attribute information has been examined but has not been fully tested for consistency."]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_FormatConsistency>
+      </report>
+      <report>
+        <DQ_CompletenessCommission>
+          <measureDescription>
+            <gco:CharacterString>[From the field named "CFCC" in ROADS_TIGER00_IN, all arcs with the following values were extracted: A11, A13, A15, and A17. Some missing segments of interstate highways were manually digitized by IGS personnel. However, entrance and exit ramps are not shown, nor are all ramps that connect intersecting interstates.
+The following is excerpted from the U.S. Census Bureau, TIGER metadata:
+
+"Data completeness of the TIGER/Line files reflects the contents of the Census TIGER data base at the time the TIGER/Line files (Census 2000 version) were created."]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_CompletenessCommission>
+      </report>
+      <report>
+        <DQ_TopologicalConsistency>
+          <measureDescription>
+            <gco:CharacterString>[The following is excerpted from the U.S. Census Bureau, TIGER metadata:
+"The information present in these files is provided for the purposes of statistical analysis and census operations only. Coordinates in the TIGER/Line files have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest. The positional accuracy varies with the source materials used, but generally the information is no better than the established national map Accuracy standards for 1:100,000-scale maps from the U.S. Geological Survey (USGS); thus it is NOT suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface. The USGS 1:100,000-scale maps met national map accuracy standards and use coordinates defined by the North American Datum, 1983. For the contiguous 48 States, the cartographic fidelity of most of the Census 2000 TIGER/Line files, in areas outside the 1980 census Geographic Base File/Dual Independent map Encoding (GBF/DIME) file coverage and selected other large metropolitan areas, compare favorably with the USGS 1:100,000-scale maps. The Census Bureau cannot specify the accuracy of features inside of what was the 1980 GBF/DIME-File coverage or selected metropolitan areas. The Census Bureau added updates to the TIGER/Line files that enumerators annotated on maps sheets prepared from the Census TIGER data base as they attempted to traverse every street feature shown on the Census 2000 map sheets; the Census Bureau also made other corrections from updated map sheets supplied by local participants for Census Bureau programs. The locational accuracy of these updates is of unknown quality. In addition to the Federal, State, and local sources, portions of the files may contain information obtained in part from maps and other materials prepared by private companies. Despite the fact the TIGER/Line data positional accuracy is not as high as the coordinate values imply, the six- decimal place precision is useful when producing maps. The precision allows features that are next to each other on the ground to be placed in the correct position, on the map, relative to each other, without overlap."]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_TopologicalConsistency>
+      </report>
+      <report>
+        <DQ_TopologicalConsistency>
+          <measureDescription>
+            <gco:CharacterString>[The vertical accuracy was not a factor in the digital production of the data set. No quantitative tests were performed.]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_TopologicalConsistency>
+      </report>
+      <lineage>
+        <LI_Lineage>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>[The following is excerpted from the U.S. Census Bureau, TIGER metadata:
+"In order for others to use the information in the Census TIGER data base in a GIS or for other geographic applications, the Census Bureau releases periodic extracts of selected information from the Census TIGER data base, organized as topologically consistent networks. Software (TIGER DB routines) written by the Geography Division allows for efficient access to Census TIGER system data. TIGER/Line files are extracted from the Census TIGER data base by county or statistical equivalent area. Census TIGER data for a given county or statistical equivalent area is then distributed among 17 fixed length record ASCII files, each one containing attributes for either line, polygon, or landmark geographic data types. The Census Bureau has released various versions of the TIGER/Line files since 1988, with each version having more updates (feature and feature names, address ranges and ZIP Codes, coordinate updates, revised field definitions, etc.) than the previous version." "TIGER/Line files are created and processed in a VMS environment. The environment consists of two Alpha Server 8400s clustered together running OpenVMS version 6.2-1H3 used for production operations. The Census TIGER system is driven by DEC Command language (DCL) procedures which invoke C software routines to extract selected geographic and cartographic information (TIGER/Line files) from the operational Census TIGER data base."]</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2000-01-01T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <organisationName>
+                    <gco:CharacterString>United States Census Bureau</gco:CharacterString>
+                  </organisationName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <address>
+                        <CI_Address>
+                          <electronicMailAddress>
+                            <gco:CharacterString>geo.geography@census.gov</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>[AVENZA Systems Inc. assembled and organized TIGER/Line Files into shapefiles for individual counties. They have also made available for purchase a joined and concatenated version of roads and hydrology for each county in the USA.]</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2002-01-01T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <organisationName>
+                    <gco:CharacterString>AVENZA Systems Inc.</gco:CharacterString>
+                  </organisationName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>416-487-5116</gco:CharacterString>
+                          </voice>
+                          <facsimile>
+                            <gco:CharacterString>416-487-5116</gco:CharacterString>
+                          </facsimile>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>84 Merton St</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Toronto</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>ON</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>M4S 1A1</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="CA" codeSpace="ISO3166-1">CA</Country>
+                          </country>
+                          <electronicMailAddress>
+                            <gco:CharacterString>info@avenza.com</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>[Bernardin, Lochmueller and Associates transformed AVENZA shapefiles into UTM Zone 16 NAD 83. A total of 92 files, one for each county, make up the entire set of Indiana files. Utilizing ESRI ArcView version 3.2 and the ESRI ArcView extension Geoprocessing, merged 92 shapefiles representing all Indiana counties into a statewide shapefile named "ROADS_TIGER00_IN."]</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2003-01-15T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <organisationName>
+                    <gco:CharacterString>Lochmueller Group (Bernardin, Lochmueller and Associates)</gco:CharacterString>
+                  </organisationName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>812-479-6200</gco:CharacterString>
+                          </voice>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>6200 Vogel Road</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Evansville</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>IN</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>47715</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                          </country>
+                        </CI_Address>
+                      </address>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>[ESRI ArcGIS 8.3 was used to extract all interstates in Indiana from ROADS_TIGER00_IN into a new shapefile named "INTERSTATES_TIGER_IGS_IN." The following values from the field CFCC contained in ROADS_TIGER00_IN were used to select all interstates: A11, A13, A15, and A17. Manual digitization was also used to close small gaps in the interstate network, wherever appropriate.]</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2003-06-19T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <organisationName>
+                    <gco:CharacterString>Indiana Geological &amp; Water Survey</gco:CharacterString>
+                  </organisationName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>812-855-7636</gco:CharacterString>
+                          </voice>
+                          <facsimile>
+                            <gco:CharacterString>812-339-8705</gco:CharacterString>
+                          </facsimile>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>420 N. Walnut St.</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Bloomington</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>IN </gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>47404</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                          </country>
+                          <electronicMailAddress>
+                            <gco:CharacterString>igwsinfo@indiana.edu</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                      <hoursOfService>
+                        <gco:CharacterString>8:30 AM - 4:30 PM, Monday - Friday</gco:CharacterString>
+                      </hoursOfService>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>[This metadata was pre-parsed and parsed using CNS (Chew and Spit. v 2.6.1) and MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."]</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2003-06-23T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <organisationName>
+                    <gco:CharacterString>Indiana Geological &amp; Water Survey</gco:CharacterString>
+                  </organisationName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>812-855-7636</gco:CharacterString>
+                          </voice>
+                          <facsimile>
+                            <gco:CharacterString>812-339-8705</gco:CharacterString>
+                          </facsimile>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>420 N. Walnut St.</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Bloomington</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>IN </gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>47404</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                          </country>
+                          <electronicMailAddress>
+                            <gco:CharacterString>igwsinfo@indiana.edu</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                      <hoursOfService>
+                        <gco:CharacterString>8:30 AM - 4:30 PM, Monday - Friday</gco:CharacterString>
+                      </hoursOfService>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>Changed name of file from Interstates_TIGER_IGS_IN.shp to Indiana_Interstates_2000.shp.</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2020-01-09T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <individualName>
+                    <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+                  </individualName>
+                  <organisationName>
+                    <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
+                  </organisationName>
+                  <positionName>
+                    <gco:CharacterString>GIS Staff</gco:CharacterString>
+                  </positionName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>(414)-229-6282</gco:CharacterString>
+                          </voice>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Milwaukee</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>WI</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>53211</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                          </country>
+                          <electronicMailAddress>
+                            <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                      <hoursOfService>
+                        <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
+                      </hoursOfService>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+        </LI_Lineage>
+      </lineage>
+    </DQ_DataQuality>
+  </dataQualityInfo>
+  <metadataConstraints>
+    <MD_Constraints>
+      <useLimitation>
+        <gco:CharacterString>None</gco:CharacterString>
+      </useLimitation>
+    </MD_Constraints>
+  </metadataConstraints>
+  <metadataMaintenance>
+    <MD_MaintenanceInformation>
+      <maintenanceAndUpdateFrequency>
+        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
+      </maintenanceAndUpdateFrequency>
+      <contact>
+        <CI_ResponsibleParty>
+          <individualName>
+            <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+          </individualName>
+          <organisationName>
+            <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
+          </organisationName>
+          <positionName>
+            <gco:CharacterString>GIS Staff</gco:CharacterString>
+          </positionName>
+          <contactInfo>
+            <CI_Contact>
+              <phone>
+                <CI_Telephone>
+                  <voice>
+                    <gco:CharacterString>(414)-229-6282</gco:CharacterString>
+                  </voice>
+                </CI_Telephone>
+              </phone>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Milwaukee</gco:CharacterString>
+                  </city>
+                  <administrativeArea>
+                    <gco:CharacterString>WI</gco:CharacterString>
+                  </administrativeArea>
+                  <postalCode>
+                    <gco:CharacterString>53211</gco:CharacterString>
+                  </postalCode>
+                  <country>
+                    <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                  </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+              <hoursOfService>
+                <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
+              </hoursOfService>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </contact>
+    </MD_MaintenanceInformation>
+  </metadataMaintenance>
+</MD_Metadata>

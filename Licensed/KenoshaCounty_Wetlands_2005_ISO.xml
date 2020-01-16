@@ -1,0 +1,988 @@
+﻿<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileIdentifier>
+    <gco:CharacterString>08BF5818-5925-45DD-8269-38309ECDEEEF</gco:CharacterString>
+  </fileIdentifier>
+  <language>
+    <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+  </language>
+  <characterSet>
+    <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+  </characterSet>
+  <hierarchyLevel>
+    <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+  </hierarchyLevel>
+  <hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </hierarchyLevelName>
+  <contact>
+    <CI_ResponsibleParty>
+      <individualName>
+        <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+      </individualName>
+      <organisationName>
+        <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
+      </organisationName>
+      <positionName>
+        <gco:CharacterString>GIS Staff</gco:CharacterString>
+      </positionName>
+      <contactInfo>
+        <CI_Contact>
+          <phone>
+            <CI_Telephone>
+              <voice>
+                <gco:CharacterString>(414)-229-6282</gco:CharacterString>
+              </voice>
+            </CI_Telephone>
+          </phone>
+          <address>
+            <CI_Address>
+              <deliveryPoint>
+                <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
+              </deliveryPoint>
+              <city>
+                <gco:CharacterString>Milwaukee</gco:CharacterString>
+              </city>
+              <administrativeArea>
+                <gco:CharacterString>WI</gco:CharacterString>
+              </administrativeArea>
+              <postalCode>
+                <gco:CharacterString>53211</gco:CharacterString>
+              </postalCode>
+              <country>
+                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+              </country>
+              <electronicMailAddress>
+                <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+              </electronicMailAddress>
+            </CI_Address>
+          </address>
+          <hoursOfService>
+            <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
+          </hoursOfService>
+        </CI_Contact>
+      </contactInfo>
+      <role>
+        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
+      </role>
+    </CI_ResponsibleParty>
+  </contact>
+  <dateStamp>
+    <gco:Date>2019-11-18</gco:Date>
+  </dateStamp>
+  <metadataStandardName>
+    <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+  </metadataStandardName>
+  <metadataStandardVersion>
+    <gco:CharacterString>2007</gco:CharacterString>
+  </metadataStandardVersion>
+  <spatialRepresentationInfo>
+    <MD_VectorSpatialRepresentation>
+      <topologyLevel>
+        <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+      </topologyLevel>
+      <geometricObjects>
+        <MD_GeometricObjects>
+          <geometricObjectType>
+            <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115">point</MD_GeometricObjectTypeCode>
+          </geometricObjectType>
+          <geometricObjectCount>
+            <gco:Integer>890</gco:Integer>
+          </geometricObjectCount>
+        </MD_GeometricObjects>
+      </geometricObjects>
+      <geometricObjects>
+        <MD_GeometricObjects>
+          <geometricObjectType>
+            <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
+          </geometricObjectType>
+          <geometricObjectCount>
+            <gco:Integer>5918</gco:Integer>
+          </geometricObjectCount>
+        </MD_GeometricObjects>
+      </geometricObjects>
+    </MD_VectorSpatialRepresentation>
+  </spatialRepresentationInfo>
+  <referenceSystemInfo>
+    <MD_ReferenceSystem>
+      <referenceSystemIdentifier>
+        <RS_Identifier>
+          <code>
+            <gco:CharacterString>3071</gco:CharacterString>
+          </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </codeSpace>
+          <version>
+            <gco:CharacterString>9.6.3</gco:CharacterString>
+          </version>
+        </RS_Identifier>
+      </referenceSystemIdentifier>
+    </MD_ReferenceSystem>
+  </referenceSystemInfo>
+  <identificationInfo>
+    <MD_DataIdentification>
+      <citation>
+        <CI_Citation>
+          <title>
+            <gco:CharacterString>Wisconsin Wetland Inventory Kenosha County, Wisconsin 2005</gco:CharacterString>
+          </title>
+          <alternateTitle>
+            <gco:CharacterString>KenoshaCounty_Wetlands_2005.gdb</gco:CharacterString>
+          </alternateTitle>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2005-01-01</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2008-01-01</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <citedResponsibleParty>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>Southeast Wisconsin Regional Planning Commission-Land Use Division and GIS Division</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>(262) 547-6721</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>P.O. Box 1607</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Waukesha</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>WI</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>53187-1607</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>sewrpc@sewrpc.org</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </citedResponsibleParty>
+          <citedResponsibleParty>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>Southeast Wisconsin Regional Planning Commission-Land Use Division and GIS Division</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>(262) 547-6721</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>P.O. Box 1607</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Waukesha</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>WI</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>53187-1607</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>sewrpc@sewrpc.org</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </citedResponsibleParty>
+          <citedResponsibleParty>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>Southeast Wisconsin Regional Planning Commission-Land Use Division and GIS Division</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>(262) 547-6721</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>P.O. Box 1607</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Waukesha</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>WI</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>53187-1607</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>sewrpc@sewrpc.org</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </citedResponsibleParty>
+          <presentationForm>
+            <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+          </presentationForm>
+          <otherCitationDetails>
+            <gco:CharacterString>Date Acquired: April 7, 2008</gco:CharacterString>
+          </otherCitationDetails>
+        </CI_Citation>
+      </citation>
+      <abstract>
+        <gco:CharacterString>This polygon data layer represents wetlands for Kenosha County, Wisconsin in 2005. This point data layer represents wetlands for Kenosha County, Wisconsin in 2005. They are feature classes with in the geodatabase KenoshaCounty_Wetlands_2005.gdb. The dataset was originally published by the Southeast Wisconsin Regional Planning Commission (SEWRPC) in 2005.[This data set consists of digital map files containing point, line, and polygon features of wetland information covering Kenosha, Milwaukee, Ozaukee, Racine, Walworth, Washington, and Waukesha Counties. The files were compiled by the Southeastern Wisconsin Regional Planning Commission on behalf of the Wisconsin Department of Natural Resources as part of a cooperative agreement to update the Wisconsin Wetland Inventory in Southeastern Wisconsin. Each file covers one U.S. Public Land Survey System survey township, for a total of 82 files in the data set. The digital map files were compiled with reference to one-inch-equals-100-feet-scale and one-inch-equals-200-feet-scale orthophotography acquired in the Spring of 2005, and also with reference to land use, vegetation, topographic, and soils information. The digital map files are available in ESRI geodatabase format.]</gco:CharacterString>
+      </abstract>
+      <purpose>
+        <gco:CharacterString>This layer is intended for reference and mapping purposes and may be used for basic applications such as viewing, querying, and map output production or to provide a basemap to support graphical overlays and analysis with other spatial data.
+
+[This data set was collected to provide wetland information for use in county, city, village, and town planning activities in the respective counties and for regional planning activities in Southeastern Wisconsin.]</gco:CharacterString>
+      </purpose>
+      <credit>
+        <gco:CharacterString>SEWRPC
+Wisconsin Department of Natural Resources 
+
+[Southeastern Wisconsin Regional Planning Commission 2005 Regional Wetland Inventory]
+</gco:CharacterString>
+      </credit>
+      <status>
+        <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
+      </status>
+      <pointOfContact>
+        <CI_ResponsibleParty>
+          <organisationName>
+            <gco:CharacterString>Southeast Wisconsin Regional Planning Commission-Land Use Division and GIS Division</gco:CharacterString>
+          </organisationName>
+          <contactInfo>
+            <CI_Contact>
+              <phone>
+                <CI_Telephone>
+                  <voice>
+                    <gco:CharacterString>(262) 547-6721</gco:CharacterString>
+                  </voice>
+                </CI_Telephone>
+              </phone>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>P.O. Box 1607</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Waukesha</gco:CharacterString>
+                  </city>
+                  <administrativeArea>
+                    <gco:CharacterString>WI</gco:CharacterString>
+                  </administrativeArea>
+                  <postalCode>
+                    <gco:CharacterString>53187-1607</gco:CharacterString>
+                  </postalCode>
+                  <country>
+                    <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                  </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>sewrpc@sewrpc.org</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </pointOfContact>
+      <resourceMaintenance>
+        <MD_MaintenanceInformation>
+          <maintenanceAndUpdateFrequency>
+            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
+          </maintenanceAndUpdateFrequency>
+          <contact>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>Southeast Wisconsin Regional Planning Commission-Land Use Division and GIS Division</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>(262) 547-6721</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>P.O. Box 1607</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Waukesha</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>WI</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>53187-1607</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>sewrpc@sewrpc.org</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </contact>
+        </MD_MaintenanceInformation>
+      </resourceMaintenance>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Kenosha County</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Wisconsin</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+          </type>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>GeoNames</gco:CharacterString>
+              </title>
+              <date gco:nilReason="missing" />
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Point</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Polygon</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+          </type>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>FGDC</gco:CharacterString>
+              </title>
+              <date gco:nilReason="missing" />
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Wetlands</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+          </type>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>LCSH</gco:CharacterString>
+              </title>
+              <date gco:nilReason="missing" />
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Downloadable Data</gco:CharacterString>
+          </keyword>
+          <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66" />
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <resourceConstraints>
+        <MD_Constraints>
+          <useLimitation>
+            <gco:CharacterString>Please see the UWM Libraries statement on Copyright and Digital Collections.[The wetland delineations in this data set were compiled with reference to large-scale orthophotography obtained in April and May 2005. Selected wetland areas were field checked in 2006 and 2007. The wetland mapping may not reflect current conditions, therefore site investigation may be necessary to determine existing wetland boundaries and wetland conditions.]</gco:CharacterString>
+          </useLimitation>
+        </MD_Constraints>
+      </resourceConstraints>
+      <resourceConstraints>
+        <MD_LegalConstraints>
+          <useLimitation>
+            <gco:CharacterString>Although this data is being distributed by the American Geographical Society Library at the University of Wisconsin-Milwaukee Libraries, no warranty expressed or implied is made by the University as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the University in the use of this data, or related materials.
+
+[This data set was created by the Southeastern Wisconsin Regional Planning Commission (SEWRPC), on behalf of the Wisconsin Department of Natural Resources (WDNR), for use in regional planning activities. Any other use/application of this information is the responsibility of the user and such use/application is at the user's own discretion and risk. The SEWRPC and the WDNR disclaim all liability regarding fitness of the information for any use other than Commission and Department applications.]</gco:CharacterString>
+          </useLimitation>
+          <otherConstraints>
+            <gco:CharacterString>Restricted to distribution to UW-System students, faculty, or staff for educational use.
+
+[Data must be ordered through the Wisconsin Department of Natural Resouces. Please see contact information for ordering instructions.]</gco:CharacterString>
+          </otherConstraints>
+        </MD_LegalConstraints>
+      </resourceConstraints>
+      <spatialRepresentationType>
+        <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+      </spatialRepresentationType>
+      <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+      </language>
+      <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+      </characterSet>
+      <topicCategory>
+        <MD_TopicCategoryCode>biota</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>inlandWaters</MD_TopicCategoryCode>
+      </topicCategory>
+      <environmentDescription>
+        <gco:CharacterString>PC</gco:CharacterString>
+      </environmentDescription>
+      <extent>
+        <EX_Extent>
+          <description>
+            <gco:CharacterString>[The wetland delineations were prepared from large-scale orthophotography obtained in April and May of 2005. Some wetland areas were field checked in 2006 and 2007 to confirm wetland boundaries and characteristics.]</gco:CharacterString>
+          </description>
+          <temporalElement>
+            <EX_TemporalExtent>
+              <extent>
+                <gml:TimeInstant gml:id="ID0E5JAC">
+                  <gml:timePosition>2005-01-01T00:00:00</gml:timePosition>
+                </gml:TimeInstant>
+              </extent>
+            </EX_TemporalExtent>
+          </temporalElement>
+        </EX_Extent>
+      </extent>
+      <extent>
+        <EX_Extent>
+          <geographicElement>
+            <EX_GeographicBoundingBox>
+              <extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </extentTypeCode>
+              <westBoundLongitude>
+                <gco:Decimal>-88.309083</gco:Decimal>
+              </westBoundLongitude>
+              <eastBoundLongitude>
+                <gco:Decimal>-87.798242</gco:Decimal>
+              </eastBoundLongitude>
+              <southBoundLatitude>
+                <gco:Decimal>42.486489</gco:Decimal>
+              </southBoundLatitude>
+              <northBoundLatitude>
+                <gco:Decimal>42.675941</gco:Decimal>
+              </northBoundLatitude>
+            </EX_GeographicBoundingBox>
+          </geographicElement>
+        </EX_Extent>
+      </extent>
+      <supplementalInformation>
+        <gco:CharacterString>Augmented original metadata with AGSL specific elements. For official metadata contact the resource Point of Contact. Also see metadata folder.</gco:CharacterString>
+      </supplementalInformation>
+    </MD_DataIdentification>
+  </identificationInfo>
+  <distributionInfo>
+    <MD_Distribution>
+      <distributionFormat>
+        <MD_Format>
+          <name>
+            <gco:CharacterString>File Geodatabase Feature Dataset</gco:CharacterString>
+          </name>
+          <version>
+            <gco:CharacterString>10.3</gco:CharacterString>
+          </version>
+        </MD_Format>
+      </distributionFormat>
+      <distributor>
+        <MD_Distributor>
+          <distributorContact>
+            <CI_ResponsibleParty>
+              <individualName>
+                <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+              </individualName>
+              <organisationName>
+                <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
+              </organisationName>
+              <positionName>
+                <gco:CharacterString>GIS Staff</gco:CharacterString>
+              </positionName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>(414)-229-6282</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Milwaukee</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>WI</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>53211</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                  <hoursOfService>
+                    <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
+                  </hoursOfService>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </distributorContact>
+          <distributorFormat>
+            <MD_Format>
+              <name>
+                <gco:CharacterString>File Geodatabase Feature Dataset</gco:CharacterString>
+              </name>
+              <version>
+                <gco:CharacterString>10.3</gco:CharacterString>
+              </version>
+            </MD_Format>
+          </distributorFormat>
+        </MD_Distributor>
+      </distributor>
+      <distributor>
+        <MD_Distributor>
+          <distributorContact>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>Southeast Wisconsin Regional Planning Commission-Land Use Division and GIS Division</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>(262) 547-6721</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>P.O. Box 1607</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Waukesha</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>WI</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>53187-1607</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                      </country>
+                      <electronicMailAddress>
+                        <gco:CharacterString>sewrpc@sewrpc.org</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </distributorContact>
+          <distributorFormat>
+            <MD_Format>
+              <name>
+                <gco:CharacterString>File Geodatabase Feature Dataset</gco:CharacterString>
+              </name>
+              <version>
+                <gco:CharacterString>10.3</gco:CharacterString>
+              </version>
+            </MD_Format>
+          </distributorFormat>
+        </MD_Distributor>
+      </distributor>
+    </MD_Distribution>
+  </distributionInfo>
+  <dataQualityInfo>
+    <DQ_DataQuality>
+      <scope>
+        <DQ_Scope>
+          <level>
+            <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+          </level>
+        </DQ_Scope>
+      </scope>
+      <report>
+        <DQ_TopologicalConsistency>
+          <evaluationMethodDescription>
+            <gco:CharacterString>[The wetland features in this data set were delineated with reference to large-scale orthophotography, large-scale topographic maps, and previous wetland and land use delineations. The digital map files in the data set were reviewed to insure that all features are correctly represented and properly attributed and symbolized. The files were also inspected to insure that all features are complete and correctly organized in the files.]</gco:CharacterString>
+          </evaluationMethodDescription>
+          <result gco:nilReason="missing" />
+        </DQ_TopologicalConsistency>
+      </report>
+      <report>
+        <DQ_ConceptualConsistency>
+          <measureDescription>
+            <gco:CharacterString>[The wetland features in this data set were delineated with reference to large-scale orthophotography, large-scale topographic maps, and previous wetland and land use delineations. The digital map files in the data set were reviewed to insure that all features are correctly represented and properly attributed and symbolized. The files were also inspected to insure that all features are complete and correctly organized in the files.]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_ConceptualConsistency>
+      </report>
+      <report>
+        <DQ_CompletenessOmission>
+          <measureDescription>
+            <gco:CharacterString>[The wetland inventory data set covers the seven-county Southeastern Wisconsin Region, consisting of Kenosha, Milwaukee, Ozaukee, Racine, Walworth, Washington, and Waukesha Counties. This data set was delineated by the Southeastern Wisconsin Regional Planning Commission Environmental Division and digitized by the Commission's GIS Division. The wetland features were delineated according to the definitions of the Wisconsin Wetland Inventory Classification Guide, with the addition of special features such as drained wetlands and drainage ditches. The source materials for this inventory were of relatively large scale; therefore the minimum mapping unit for this inventory is 0.25 acres as opposed to the minimum mapping unit of 2.0 acres used for the original Wisconsin Wetland Inventory. To the best knowledge of the Commission GIS Division, this data set includes all of the intended features digitized from the source hardcopy materials.]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_CompletenessOmission>
+      </report>
+      <report>
+        <DQ_AbsoluteExternalPositionalAccuracy>
+          <measureDescription>
+            <gco:CharacterString>[The wetland features in this data set were created with reference to digital and hardcopy orthophotography and topographic mapping prepared to meet National Map Accuracy Standards (NMAS) for one-inch-equals-100-feet (1"=100') scale or one-inch-equals-200-feet (1"=200') scale mapping. However, the features were delineated on hardcopy orthophoto plots prepared at one-inch-equals-400-feet (1"=400') scale. The features are considered to be delineated and digitized to the accuracy of 200-scale mapping. Therefore, ninety percent or more of all well-defined planimetric features in this data set are within 6.6 feet of their true position on the ground. This data set generally does not depict "well-defined planimetric features" but does show wetland boundaries and locations to the accuracy of the NMAS specifications.]</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_AbsoluteExternalPositionalAccuracy>
+      </report>
+      <report>
+        <DQ_QuantitativeAttributeAccuracy>
+          <measureDescription>
+            <gco:CharacterString>Attribute information remains the same as given by the author of the data.</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing" />
+        </DQ_QuantitativeAttributeAccuracy>
+      </report>
+      <lineage>
+        <LI_Lineage>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>[This data set was prepared by the staff of the Southeastern Wisconsin Regional Planning Commission (SEWRPC) using a methodology similar to the original Wisconsin Wetland Inventory (WWI). The wetland features were delineated on hardcopy plots of 2005 color orthophotography generated at 1"=400' scale. The orthophoto plots also contained two-foot contour interval contour and depression lines, wetland boundaries from the SEWRPC 2000 land use inventory, older wetland boundaries and labels from the SEWRPC 1985 vegetation inventory, SEWRPC project area boundaries, and SEWRPC field-checked wetland boundaries (where available). Additional materials used for reference in the delineation process included hydric soil units from the Natural Resources Conservation Service SSURGO soils data set, a created wetlands data set covering Ozaukee County only, and stereo prints of hardcopy aerial photography from the SEWRPC 2005 regional orthophotography inventory. The wetland features were delineated on the hardcopy orthophoto plots by trained biologists. Because the source materials were of relatively large scale, the minimum mapping unit for this data set is 0.25 acres, as opposed to 2.0 acres in the original WWI. The classification codes from the original WWI were followed with slight modification. For example, a line feature to identify drainage ditches (code "DD") too narrow to be depicted as polygons (generally narrower than 100 feet on the ground) was added. A point feature to show the location of drained wetlands (code "DW") was also added to show small areas that have been effectively drained for agriculture. Wetlands and ponds less than 0.25 acres in size were located as point features. As in the original WWI, wetland polygons that contain at least 30 percent cover of a second wetland cover type were given a mixed label of two classification codes. Wetland features were delineated after reviewing any available SEWRPC environmental project files for a given area. Field-verified wetland boundaries were directly copied (or plotted if in digital format) onto the orthophoto plots. Reference materials, such as digital files of hydric soil units and hardcopy USDA Food Security Act (FSA) wetland maps, were consulted to identify and confirm wetland features. Delineations were made using previous wetland boundaries from SEWRPC 2000 land use and 1985 vegetation inventories as a guide. Hardcopy prints of stereo aerial photography from 2005 were also used to locate and confirm wetland areas. In some cases the SEWRPC staff made field checks to verify wetland locations and boundaries. The wetland delineations were then board digitized by SEWRPC staff. The features were collected into ESRI geodatabase format files and the digital map files were reviewed for accuracy and completeness. Hardcopy plots of the wetland features on a background of 2005 orthophotography were generated at 1"=400' scale for review by Commission staff. Corrections were annotated on the plots and the digital files were revised as necessary. A second set of hardcopy plots was generated from the revised files for delivery to the Wisconsin Department of Natural Resources (WDNR). The geodatabase files were translated to ESRI shapefile format, and the shapefiles were converted to the Wisconsin Transverse Mercator (WTM 83/91) coordinate system for delivery to the WDNR. After review of the hardcopy and digital products by the WDNR, SEWRPC staff made any necessary corrections to the geodatabase files and final versions of the shapefiles were delivered to the WDNR.]</gco:CharacterString>
+              </description>
+              <dateTime gco:nilReason="unknown" />
+              <processor>
+                <CI_ResponsibleParty>
+                  <organisationName>
+                    <gco:CharacterString>Southeast Wisconsin Regional Planning Commission-Land Use Division and GIS Division</gco:CharacterString>
+                  </organisationName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>(262) 547-6721</gco:CharacterString>
+                          </voice>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>P.O. Box 1607</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Waukesha</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>WI</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>53187-1607</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                          </country>
+                          <electronicMailAddress>
+                            <gco:CharacterString>sewrpc@sewrpc.org</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>Projected data and changed name of files from kenospw9.shp and kenosxw9.shp to KenoshaCounty_WetlandPoints_2005 and KenoshaCounty_WetlandPolygons_2005.shp. A new file geodatabase named KenoshaCounty_Wetlands_2005.gdb was then created and the files were imported into a feature dataset.</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2019-11-18T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <individualName>
+                    <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+                  </individualName>
+                  <organisationName>
+                    <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
+                  </organisationName>
+                  <positionName>
+                    <gco:CharacterString>GIS Staff</gco:CharacterString>
+                  </positionName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>(414)-229-6282</gco:CharacterString>
+                          </voice>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Milwaukee</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>WI</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>53211</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                          </country>
+                          <electronicMailAddress>
+                            <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                      <hoursOfService>
+                        <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
+                      </hoursOfService>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <source>
+            <LI_Source>
+              <description>
+                <gco:CharacterString>[The source materials were used to determine and delineate wetland boundaries and related features on large-scale orthophotography plots.]</gco:CharacterString>
+              </description>
+              <sourceCitation>
+                <CI_Citation>
+                  <title>
+                    <gco:CharacterString>Large-scale digital and hardcopy orthophotography, large-scale digital and hardcopy topographic mapping, aerial photography stereo prints, USDA FSA wetland maps, USDA Natural Resources Conservation Service SSURGO soils data, Wisconsin Department of Natural Resources (WDNR) list of aquatic and hydrophytic plants, WDNR Wisconsin Wetland Inventory delineations, SEWRPC land use and vegetation inventories.</gco:CharacterString>
+                  </title>
+                  <alternateTitle>
+                    <gco:CharacterString>none</gco:CharacterString>
+                  </alternateTitle>
+                  <date gco:nilReason="missing" />
+                  <citedResponsibleParty>
+                    <CI_ResponsibleParty>
+                      <organisationName>
+                        <gco:CharacterString>Various agencies, including Aero-Metric, Inc., Sheboygan, WI, and Ayres Associates, Madison, WI (topographic mapping and digital orthophotography), USDA Natural Resources Conservation Service (SSURGO soils data), Wisconsin Department of Natural Resources, and the Southeastern Wisconsin Regional Planning Commission.</gco:CharacterString>
+                      </organisationName>
+                      <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                      </role>
+                    </CI_ResponsibleParty>
+                  </citedResponsibleParty>
+                  <citedResponsibleParty>
+                    <CI_ResponsibleParty>
+                      <organisationName>
+                        <gco:CharacterString>Various publishers, including the Wisconsin Department of Natural Resources and the Southeastern Wisconsin Regional Planning Commission</gco:CharacterString>
+                      </organisationName>
+                      <contactInfo>
+                        <CI_Contact>
+                          <address>
+                            <CI_Address>
+                              <deliveryPoint>
+                                <gco:CharacterString>Various locations and Waukesha, Wisconsin</gco:CharacterString>
+                              </deliveryPoint>
+                            </CI_Address>
+                          </address>
+                        </CI_Contact>
+                      </contactInfo>
+                      <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+                      </role>
+                    </CI_ResponsibleParty>
+                  </citedResponsibleParty>
+                </CI_Citation>
+              </sourceCitation>
+              <sourceExtent>
+                <EX_Extent>
+                  <description>
+                    <gco:CharacterString>ground condition</gco:CharacterString>
+                  </description>
+                  <temporalElement>
+                    <EX_TemporalExtent>
+                      <extent>
+                        <gml:TimePeriod gml:id="ID0E3CAE">
+                          <gml:beginPosition indeterminatePosition="unknown" />
+                          <gml:endPosition indeterminatePosition="now" />
+                        </gml:TimePeriod>
+                      </extent>
+                    </EX_TemporalExtent>
+                  </temporalElement>
+                </EX_Extent>
+              </sourceExtent>
+            </LI_Source>
+          </source>
+        </LI_Lineage>
+      </lineage>
+    </DQ_DataQuality>
+  </dataQualityInfo>
+  <metadataConstraints>
+    <MD_Constraints>
+      <useLimitation>
+        <gco:CharacterString>None</gco:CharacterString>
+      </useLimitation>
+    </MD_Constraints>
+  </metadataConstraints>
+  <metadataMaintenance>
+    <MD_MaintenanceInformation>
+      <maintenanceAndUpdateFrequency>
+        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
+      </maintenanceAndUpdateFrequency>
+      <contact>
+        <CI_ResponsibleParty>
+          <individualName>
+            <gco:CharacterString>American Geographical Society Library – UWM Libraries</gco:CharacterString>
+          </individualName>
+          <organisationName>
+            <gco:CharacterString>University of Wisconsin-Milwaukee</gco:CharacterString>
+          </organisationName>
+          <positionName>
+            <gco:CharacterString>GIS Staff</gco:CharacterString>
+          </positionName>
+          <contactInfo>
+            <CI_Contact>
+              <phone>
+                <CI_Telephone>
+                  <voice>
+                    <gco:CharacterString>(414)-229-6282</gco:CharacterString>
+                  </voice>
+                </CI_Telephone>
+              </phone>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>2311 E Hartord Ave</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Milwaukee</gco:CharacterString>
+                  </city>
+                  <administrativeArea>
+                    <gco:CharacterString>WI</gco:CharacterString>
+                  </administrativeArea>
+                  <postalCode>
+                    <gco:CharacterString>53211</gco:CharacterString>
+                  </postalCode>
+                  <country>
+                    <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                  </country>
+                  <electronicMailAddress>
+                    <gco:CharacterString>gisdata@uwm.edu</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+              <hoursOfService>
+                <gco:CharacterString>Monday – Friday: 8:00am – 4:30pm</gco:CharacterString>
+              </hoursOfService>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="ISOTC211/19115">resourceProvider</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </contact>
+    </MD_MaintenanceInformation>
+  </metadataMaintenance>
+</MD_Metadata>
