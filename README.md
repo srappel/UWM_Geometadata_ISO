@@ -1,3 +1,7 @@
+ARCHIVED REPOSITORY
+
+You can find updated metadata at https://github.com/opengeometadata/edu.uwm
+
 # UWM_Geometadata_ISO
  ISO Format Geometadata from the AGSL at UW-Milwaukee
 
